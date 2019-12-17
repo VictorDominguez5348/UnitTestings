@@ -1,23 +1,25 @@
 public class UnitTestingsLoops
 {
-    private int hours, days, weeks;
-    public UnitTestingsLoops(int hours, int days, int weeks)
+    private int pace;
+    private int timeLimit;
+
+    public UnitTestingsLoops(int pace, int timeLimit)
     {
-     this.hours = hours;
-    this.days = days;
-    this.weeks = weeks;
+        this.pace = pace;
+        this.timeLimit = timeLimit;
+
 
     }
 
-    public int numOfMinutes()
+    public int numOfLaps()
     {
+        int laps = 0;
 
-      int minutes;
-      minutes = 0;
-        for (int i = 0; i >= 365; i++)
+        while (count < limit)
         {
-            minutes = hours * 60 ;
+            sum = count +
+            count = count * 1;                // OOPS, does not change count
         }
-        return  minutes;
     }
+
 }
